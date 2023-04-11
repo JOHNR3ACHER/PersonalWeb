@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/basic.css">
+    <title>This is a form demo!</title>
+</head>
+
+
+
+<form method="post">
+    Name: <input name="name"/> <!--Makes input text box-->
+    <br/>
+    <button type="submit">Submit</button>
+    <small>
+        <a href= 'http://127.0.0.1:5000'> Return to home </a>
+    </small>
+    </form>
+   <br/>
+
+
+<form method="post">
+    Enter your message: <input name="message"/> <!--Makes input text box-->
+    <br/>
+    <button type="submit">Submit</button>
+    <small>
+        <a href= 'http://127.0.0.1:5000'> Return to home </a>
+    </small>
+   <br/>
+</form>
+
+<!--More content if a name exists-->
+{% if name %}
+<div class="content">
+    <p>Hello, {{name}} nice to meet you!</p>
+</div>
+{% endif %}

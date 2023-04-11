@@ -1,0 +1,7 @@
+Name: Jesus E. Gracia
+Age: 20
+Major: Electrical Engineering
+Minor: Computer Science
+Classification: Senior
+Graduation date: Spring 2024
+
